@@ -100,3 +100,19 @@ function myFunction() {
  
     </body>
 </html>
+
+<html>
+  <body>
+    <div id="twitch-embed"></div>
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 1570,
+        height: 774,
+        channel: "mr__cdub__",
+        // Only needed if this page is going to be embedded on other websites
+        parent: ["crazyblocksstudios.000webhostapp.com", "https://mrcdub2023.github.io/HorizonsSMPSERVERLIST/"]
+      });
+    </script>
+  </body>
+</html>
